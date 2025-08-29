@@ -12,7 +12,7 @@ De API ondersteunt het aanmaken, ophalen, updaten en verwijderen van patiënten,
 - Validaties:
   - Telefoonnummer moet 10 cijfers bevatten
   - Leeftijd mag niet negatief zijn
-  - Unieke validatie voor telefoonnummer en e-mail
+  - Zowel nummer als email moeten uniek zijn 
 - Diagnoses worden gedeeltelijk geanonimiseerd (alleen de eerste 3 karakters zichtbaar)
 
 | Methode | Endpoint                             | Beschrijving              |
